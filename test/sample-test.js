@@ -2,7 +2,7 @@ const { expect, assert } = require("chai");
 const { BigNumber } = require("ethers");
 const { ethers } = require("hardhat");
 
-describe("Brand", function () {
+describe("Wico Preview Contract", function () {
   let brand, token;
   it("Deployed", async function () {
     const Brand = await ethers.getContractFactory("Brand");
